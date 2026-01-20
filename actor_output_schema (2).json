@@ -1,0 +1,11 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of the Ethical \"Deep-Search\" Job Board (AI Agent)",
+    "properties": {
+        "overview": {
+            "type": "string",
+            "title": "Overview",
+            "template": "{{links.apiDefaultDatasetUrl}}/items?view=overview"
+        }
+    }
+}
